@@ -1,0 +1,49 @@
+.one{
+      text-align:center;
+    }
+
+    .imgg{
+      width:32%;
+      border:1px solid black;
+      float:left;
+      margin:2px;
+      height: 250px;
+
+    }
+    .two{
+      clear:left;
+    }
+
+    .three{
+      font-family: "Times New Roman";
+      font-size:14px;
+    }
+    .sub3{
+      text-align:center;
+    }
+    .foot{
+    border-right: 2px solid lightgrey;
+
+    }
+
+    .last{
+      padding-right:2%;
+      padding-left:2%
+    }
+     .foo{
+        position:absolute;
+        bottom:0px;
+        width:100%;
+  
+      }
+    .block1{
+      width:32%;
+      border:4px solid lightblue;
+      background-color:lightyellow;
+      float:left;
+      margin:2px;
+      height: 245px;
+
+    }
+
+
