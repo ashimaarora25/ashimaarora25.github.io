@@ -25,7 +25,7 @@
 
 .a{
 padding-left: 25%;
-padding-right:15%
+padding-right:25%;
 }
 
 .imageblock2{
@@ -66,18 +66,23 @@ padding-right:15%
 .subblock1{
  float:left;
  width:30%;
- margin-left: 2%;
+ margin-left:5%;
+ margin-top:4%;
+
 }
 
 
 .textblock{
 float:left;
-width:30%
+width:30%;
+margin-top:4%;
+border: 1px solid white;
+padding-left:3%;
 }
 
 
 .subblock3{
  float:left;
  width:30%;
- margin-right:2%;
+ margin-top:4%;
 }
