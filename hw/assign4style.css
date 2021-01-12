@@ -1,6 +1,6 @@
  .clock{
-    height:500px;
-     width:60%;
+    height:600px;
+     width:70%;
      margin-left:15%;
      margin-right:15%;
      position:relative;
@@ -12,14 +12,14 @@
 
      height:60px;
      position:absolute;
-     left:400px; top:45%;
+     left:500px; top:45%;
 
      animation-name:move1;
      animation-duration: 10s;
      animation-delay:2s;
      animation-fill-mode: forwards;
 
-     /* marks the ending position   */
+
      }
 
      
@@ -27,21 +27,18 @@
      .hand2{
        height:60px;
        width:25%;
-       left:400px; top:45%;
+       left:500px; top:45%;
         
        position:absolute;
        animation-name:move2;
        animation-duration: 8s;
        animation-delay:2s;
-            animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
 
      }
 
 
-/* @keyframes for animations:
-define time, position and contents, but we already have the contents so define time, position
-here top remains same, left space changes,
-which element uses it */
+
 @keyframes move1{
 
   0%{
