@@ -25,9 +25,9 @@
      
      .hand2{
        height:60px;
-       width:23%;
+       width:25%;
        left:400px; top:45%;
-         transform: rotate(-90deg);
+        
        position:absolute;
        animation-name:move2;
        animation-duration: 8s;
