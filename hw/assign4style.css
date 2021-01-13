@@ -12,7 +12,9 @@
 
      height:60px;
      position:absolute;
+     width:12%;
      left:50%; top:45%;
+    
 
      animation-name:move1;
      animation-duration: 10s;
@@ -26,10 +28,11 @@
      
      .hand2{
        height:60px;
+      position:absolute;
        width:25%;
        left:50%; top:45%;
         
-       position:absolute;
+       
        animation-name:move2;
        animation-duration: 8s;
 
