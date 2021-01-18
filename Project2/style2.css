@@ -333,7 +333,7 @@
   width:45%;
   height:100%;
 float:left;
-background:linear-gradient(to bottom left,lightpink 0%, transparent 90%), url("/Users/ashimaarora/Desktop/BootCamp/Week-One/html/images_pr2/intro_img1.jpg") no-repeat;
+background:linear-gradient(to bottom left,lightpink 0%, transparent 90%), url("https://ashimaarora25.github.io/Project2/images_pr2/intro_img1.jpg") no-repeat;
   background-size:100% 100%;
 }
 .textarea2{
