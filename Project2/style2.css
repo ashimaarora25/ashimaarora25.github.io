@@ -417,10 +417,10 @@ background:linear-gradient(to bottom left,lightpink 0%, transparent 90%), url("h
   tranform:translateY(0%);
 }
 50%{
-  tranform:translateY(-140%);
+  tranform:translateY(-150%);
 }
 100%{
-  transform: translateY(140%);
+  transform: translateY(150%);
 }
 }
 
@@ -429,7 +429,7 @@ background:linear-gradient(to bottom left,lightpink 0%, transparent 90%), url("h
     tranform:translateY(0%);
   }
   50%{
-    tranform:translateY(400%);
+    tranform:translateY(450%);
   }
   100%{
     transform: translateY(-450%);
