@@ -40,6 +40,6 @@ for (let i = 0; i < openbtn.length; i++) {
 }
 
 
-clsbtn.addEventListener('click', closeModal);
+close.addEventListener('click', closeModal);
 
 
