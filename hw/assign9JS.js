@@ -36,7 +36,7 @@ const closeModal = function () {
     document.getElementById('open').style.opacity = 0;
 }
 for (let i = 0; i < openbtn.length; i++) {
-    btnOpen[i].addEventListener('click', openModal)
+    openbtn[i].addEventListener('click', openModal)
 }
 
 
