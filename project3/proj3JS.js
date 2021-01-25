@@ -61,9 +61,10 @@ document.getElementById('btn1').addEventListener('click', function () {
     document.getElementById('second').textContent = '10';
     document.getElementById('third').textContent = '0';
     document.getElementById('qmark').textContent = '?';
-    document.querySelector('.text').textContent = "";
+    document.querySelector('.text').textContent = " ";
 
     secretNumber = Math.trunc(Math.random() * 100) + 1;
+    score=10;
 
     document.getElementById('qmark').style.backgroundColor = 'white';
 
