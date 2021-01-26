@@ -33,11 +33,11 @@ document.getElementById('btn2').addEventListener("click", function () {
         }
 
         else if (userInput > secretNumber) {
-            displaymsg('📈 Too High');
+            displaymsg('⬇️ Try a Lower Number');
 
         }
         else if (userInput < secretNumber) {
-            displaymsg('📉 Too Low');
+            displaymsg('⬆️ Try a Higher Number');
 
         }
     }
