@@ -1,6 +1,6 @@
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
-let score = document.getElementById('second').textContent;
-let highScore = document.getElementById('third').textContent;
+let score = Number(document.getElementById('second').textContent);
+let highScore = Number(document.getElementById('third').textContent);
 
 const displaymsg = function (message) {
     document.getElementById('first').textContent = message;
@@ -59,9 +59,8 @@ document.getElementById('btn2').addEventListener("click", function () {
 document.getElementById('btn1').addEventListener('click', function () {
     document.getElementById('first').textContent = 'Start guessing...'
     document.getElementById('second').textContent = '10';
-    document.getElementById('third').textContent = '0';
     document.getElementById('qmark').textContent = '?';
-    document.querySelector('.text').textContent = " ";
+   
 
     secretNumber = Math.trunc(Math.random() * 100) + 1;
     score=10;
@@ -69,6 +68,10 @@ document.getElementById('btn1').addEventListener('click', function () {
     document.getElementById('qmark').style.backgroundColor = 'white';
 
     document.getElementById('bod').style.background = 'linear-gradient(to top right, purple, lightyellow)';
+       document.querySelector('.text').value = "";
+    if (score > highScore) {
+        document.getElementById('third').value = highScore;
+    }
 
 });
 
