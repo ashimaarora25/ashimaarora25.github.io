@@ -1,6 +1,7 @@
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
 let score = Number(document.getElementById('second').textContent);
 let highScore = Number(document.getElementById('third').textContent);
+let userInputs = [];
 
 const displaymsg = function (message) {
     document.getElementById('first').textContent = message;
@@ -9,6 +10,7 @@ const displaymsg = function (message) {
 
 document.getElementById('btn2').addEventListener("click", function () {
     const userInput = Number(document.querySelector('.text').value);
+        userInputs.push(userInput);
 
     if (isNaN(userInput) || (userInput < 0) || (userInput > 100)) {
         if (document.getElementById('first')) {
@@ -47,13 +49,6 @@ document.getElementById('btn2').addEventListener("click", function () {
         document.getElementById('bod').style.background = 'linear-gradient(to top right, green, lightblue)';
 
     }
-
-
-
-
-
-
-
 });
 
 document.getElementById('btn1').addEventListener('click', function () {
@@ -72,6 +67,8 @@ document.getElementById('btn1').addEventListener('click', function () {
     if (score > highScore) {
         document.getElementById('third').value = highScore;
     }
+     userInputs.splice(0, userInputs.length);
+    document.getElementById('prev').textContent = userInputs;
 
 });
 
