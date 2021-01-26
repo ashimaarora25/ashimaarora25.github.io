@@ -119,3 +119,12 @@
             position: relative;
 
         }
+       .prevg {
+            font-weight: bold;
+            color: aqua;
+            font-family: cursive;
+
+            font-size: 34px;
+            padding-bottom: 2%;
+
+        }
