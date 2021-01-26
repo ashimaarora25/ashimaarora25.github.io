@@ -25,6 +25,7 @@ document.getElementById('btn2').addEventListener("click", function () {
     else if (userInput !== secretNumber && (score >= 1)) {
         score = score - 1;
         document.getElementById('second').textContent = score;
+         document.getElementById('prev').textContent = userInputs;
         if (score === 0) {
             if (document.getElementById('first')) {
                 displaymsg('⌛ Game Over');
